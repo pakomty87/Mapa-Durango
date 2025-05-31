@@ -1,29 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mapa Durango</title>
+  <title>Mapa Interactivo de Durango</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
       background: #ffffff;
+      margin: 40px;
     }
     h2 {
       color: #2c3e50;
     }
-    iframe {
-      border: none;
+    .map-container {
+      max-width: 100%;
       width: 100%;
-      height: 600px;
+      margin: auto;
     }
   </style>
 </head>
 <body>
   <h2>Mapa Interactivo de Durango</h2>
- <div style="max-width: 100%; width: 800px; margin: auto;">
-  <script id="datawrapper-script" src="https://datawrapper.dwcdn.net/KOUfp/5/embed.js"></script>
-</div>
+
+  <div class="map-container">
+    <script id="datawrapper-script" src="https://datawrapper.dwcdn.net/KOUfp/5/embed.js" async></script>
+  </div>
 </body>
 </html>
